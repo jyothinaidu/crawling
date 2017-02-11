@@ -1,0 +1,1 @@
+from .tasks import web_scrapping_data_from_url
