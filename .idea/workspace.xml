@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8506c1a9-1feb-4039-be9f-9a3178de4347" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.ebextensions/django.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawling/settings.py" afterPath="$PROJECT_DIR$/crawling/settings.py" />
     </list>
     <ignored path="crawling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +30,7 @@
       <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawling/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="0">
               <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
               <folding>
                 <element signature="e#224#233#0" expanded="true" />
@@ -49,18 +52,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawling/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="539">
+              <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="django.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,6 +96,7 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/crawling/wsgi.py" />
         <option value="$PROJECT_DIR$/crawling/settings.py" />
+        <option value="$PROJECT_DIR$/.ebextensions/django.config" />
       </list>
     </option>
   </component>
@@ -158,6 +162,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crawling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".ebextensions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,6 +338,14 @@
       <option name="presentableId" value="Default" />
       <updated>1486560646688</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1486836982975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1486836982975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,6 +381,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -438,7 +468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawling/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="0">
           <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding>
             <element signature="e#224#233#0" expanded="true" />
@@ -446,10 +476,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawling/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="539">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
