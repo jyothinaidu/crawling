@@ -107,7 +107,7 @@ else:
             'NAME': 'aa1tqcgobx4j4c3',
             'USER': 'jyothinaidu',
             'PASSWORD': 'jyothinaidu',
-            'HOST': 'localhost',
+            'HOST': 'aa1tqcgobx4j4c3.cb6ec5zi7fpk.us-west-2.rds.amazonaws.com',
             'PORT': '5432',                      # Set to empty string for default.
         }
     }
