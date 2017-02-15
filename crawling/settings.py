@@ -105,9 +105,9 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'aa1tqcgobx4j4c3',
-            'USER': 'jyothinaidu',
-            'PASSWORD': 'jyothinaidu',
-            'HOST': 'aa1tqcgobx4j4c3.cb6ec5zi7fpk.us-west-2.rds.amazonaws.com',
+            'USER': 'root',
+            'PASSWORD': 'root',
+            'HOST': 'localhost',
             'PORT': '5432',                      # Set to empty string for default.
         }
     }
