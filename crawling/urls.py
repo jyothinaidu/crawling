@@ -19,5 +19,6 @@ from scrapping.tasks import web_scrapping_data_from_url
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'','scrapping.tasks.web_scrapping_data_from_url',name='web_scrapping_data_from_url'),
     url(r'^crawling/','scrapping.tasks.web_scrapping_data_from_url',name='web_scrapping_data_from_url'),
 ]
